@@ -1,0 +1,15 @@
+# Create the .gitignore file
+touch .gitignore
+
+# Add content to .gitignore
+echo "# Python environment/temp files" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "venv/" >> .gitignore
+echo "" >> .gitignore
+echo "# Model artifacts" >> .gitignore
+echo "models/*.joblib" >> .gitignore
+echo "models/*.pkl" >> .gitignore
+echo "" >> .gitignore
+echo "# Data files (optional, depending on file size/privacy)" >> .gitignore
+echo "data/*.csv" >> .gitignore
